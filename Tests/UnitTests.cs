@@ -109,7 +109,7 @@ namespace GithubActionsLab
         [Test]
         public void Power_Valid_Schmidt()
         {
-            Assert.AreEqual(3, Program.Power("2", "2"));
+            Assert.AreEqual(4, Program.Power("2", "2"));
             Assert.AreEqual(64, Program.Power("4", "3"));
             Assert.AreEqual(10000, Program.Power("10", "4"));
         }
